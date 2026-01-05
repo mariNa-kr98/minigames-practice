@@ -120,7 +120,7 @@ public class TicTacToe extends Application {
                         turn = 'X';
                     }
 
-                    if(checkWin(board, buttonBoard)){
+                    if(checkWin(board, buttonBoard, scoreLabel1, scoreLabel2)){
                         for (int i = 0; i < 3; i++) {
                             for (int j = 0; j < 3; j++) {
                                 buttonBoard[i][j].setDisable(true);
